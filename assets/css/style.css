@@ -10,6 +10,7 @@ img{
 button{
     border: none;
     width: 100%;
+    border: 1px var(--secondary-color-200) solid;
     
     
 }
@@ -22,12 +23,16 @@ button{
     display: grid;
     grid-template-areas: "one one two"
                           "four four three";
-    gap: 3px;
+    
                           
 }
 
 .counter{
     grid-area: one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 
 }
 .plus{
@@ -37,12 +42,16 @@ button{
 }
 .minus{
     grid-area: three;
+    margin-top: -1px;
+    
 
 }
 .clear{
     grid-area: four;
     font-size: 25px;
     color: var(--secondary-color-200);
+    border-right: none;
+    margin-top: -1px;
 
 }
  
