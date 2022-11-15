@@ -3,23 +3,36 @@
     --secondary-color: #ffffff;
     --secondary-color-200: #fca311;
 }
+img{
+    width: 50px;
+    
+}
+button{
+    border: none;
+    width: 100%;
+    
+    
+}
 
 .counter-container{
+    margin: 30vh auto 0 auto;
     width: 400px;
     height: 250px;
     background-color: var(--primary-color);
     display: grid;
     grid-template-areas: "one one two"
                           "four four three";
-    
-    
+    gap: 3px;
+                          
 }
+
 .counter{
     grid-area: one;
 
 }
 .plus{
     grid-area: two;
+
 
 }
 .minus{
@@ -28,6 +41,10 @@
 }
 .clear{
     grid-area: four;
+    font-size: 25px;
+    color: var(--secondary-color-200);
 
 }
-     
+ 
+    
+    
