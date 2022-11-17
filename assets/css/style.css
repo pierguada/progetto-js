@@ -1,65 +1,64 @@
 /* ho settato i colori */
 :root{                          
-    --primary-color:#e5e5e5;
-    --secondary-color: #ffffff;
-    --secondary-color-200: #fca311;
+    --primary-color:#202020;
+    --secondary-color: #333533;
+    --secondary-color-200: #d6d6d6;
 }
 
 button{
     border: none;
     width: 100%;
     border-radius: 4px;
-    
-    
-    
+    background-color: var(--secondary-color);
+    border-radius: 60px;
+    border: 2px solid white;
 }
+    
+    
 
 .counter-container{
     margin: 30vh auto 0 auto;
     width: 400px;
     height: 250px;
     background-color: var(--primary-color);
-    border: 1px solid var(--secondary-color-200);
-    border-radius: 4px;
-    gap: 4px;
+    border: 2px solid var(--secondary-color-200);
+    border-radius: 10px;
+    gap: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding: 10px;
     
     
 }
-
-
 .counter{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+    background-color: var(--secondary-color-200);
+    border-radius: 5px;
 
 }
-
-.plus{
-    
-}
-
-
-
-.minus{
-    margin-top: -1px;
-    
-
-}
-
 .clear{
     font-size: 25px;
-    color: var(--secondary-color-200);
-    border-right: none;
-    margin-top: -1px;
-
+    color: #ffd100;
+    
 }
-
+    
 img{
     width: 50px;
     
 } 
+
+
+
+    
+
+
+
+
+
+
+
     
     
