@@ -1,12 +1,10 @@
-:root{
+/* ho settato i colori */
+:root{                          
     --primary-color:#e5e5e5;
     --secondary-color: #ffffff;
     --secondary-color-200: #fca311;
 }
-img{
-    width: 50px;
-    
-}
+
 button{
     border: none;
     width: 100%;
@@ -21,45 +19,47 @@ button{
     width: 400px;
     height: 250px;
     background-color: var(--primary-color);
-    display: grid;
-    grid-template-areas: "one one two"
-                          "four four three";
     border: 1px solid var(--secondary-color-200);
     border-radius: 4px;
     gap: 4px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     
     
-                          
 }
 
+
 .counter{
-    grid-area: one;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
 
 }
+
 .plus{
-    grid-area: two;
     
 }
 
 
+
 .minus{
-    grid-area: three;
     margin-top: -1px;
     
 
 }
+
 .clear{
-    grid-area: four;
     font-size: 25px;
     color: var(--secondary-color-200);
     border-right: none;
     margin-top: -1px;
 
 }
- 
+
+img{
+    width: 50px;
+    
+} 
     
     
